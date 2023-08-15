@@ -2,15 +2,7 @@ package dojo.supermarket.model;
 
 import java.util.Objects;
 
-public class Product {
-
-    private final String name;
-    private final ProductUnit unit;
-
-    public Product(String name, ProductUnit unit) {
-        this.name = name;
-        this.unit = unit;
-    }
+public record Product(String name, ProductUnit unit) {
 
     public String getName() {
         return name;

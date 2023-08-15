@@ -1,9 +1,10 @@
 package dojo.supermarket.model;
 
+import dojo.supermarket.service.SupermarketCatalog;
 import java.util.HashMap;
 import java.util.Map;
 
-public class FakeCatalog implements SupermarketCatalog {
+public class MockCatalog implements SupermarketCatalog {
     private Map<String, Product> products = new HashMap<>();
     private Map<String, Double> prices = new HashMap<>();
 
