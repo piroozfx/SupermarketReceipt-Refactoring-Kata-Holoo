@@ -1,6 +1,7 @@
 package dojo.supermarket.model;
 
-import dojo.supermarket.service.SupermarketCatalog;
+import dojo.supermarket.model.product.Product;
+import dojo.supermarket.service.cart.SupermarketCatalog;
 import java.util.HashMap;
 import java.util.Map;
 

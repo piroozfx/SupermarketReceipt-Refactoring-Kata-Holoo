@@ -1,5 +1,7 @@
 package dojo.supermarket.model;
 
+import dojo.supermarket.model.product.Product;
+
 import java.util.Objects;
 
 public class ReceiptItem {
@@ -9,7 +11,7 @@ public class ReceiptItem {
     private final double totalPrice;
     private final double quantity;
 
-    ReceiptItem(Product p, double quantity, double price, double totalPrice) {
+    public ReceiptItem(Product p, double quantity, double price, double totalPrice) {
         this.product = p;
         this.quantity = quantity;
         this.price = price;

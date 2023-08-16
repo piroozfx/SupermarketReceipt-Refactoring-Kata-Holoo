@@ -1,8 +1,12 @@
 package dojo.supermarket.model;
 
-import dojo.supermarket.service.Cashier;
-import dojo.supermarket.service.ShoppingCart;
-import dojo.supermarket.service.SupermarketCatalog;
+import dojo.supermarket.model.offer.SpecialOfferType;
+import dojo.supermarket.model.product.Product;
+import dojo.supermarket.model.product.ProductUnit;
+import dojo.supermarket.service.cash.Cashier;
+import dojo.supermarket.service.cash.Receipt;
+import dojo.supermarket.service.cart.ShoppingCart;
+import dojo.supermarket.service.cart.SupermarketCatalog;
 import org.junit.jupiter.api.Test;
 
 import java.util.Collections;

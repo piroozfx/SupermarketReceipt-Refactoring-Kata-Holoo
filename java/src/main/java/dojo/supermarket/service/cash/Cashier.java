@@ -1,8 +1,11 @@
-package dojo.supermarket.service;
+package dojo.supermarket.service.cash;
 
-import dojo.supermarket.model.*;
-import dojo.supermarket.service.ShoppingCart;
-import dojo.supermarket.service.SupermarketCatalog;
+import dojo.supermarket.model.offer.Offer;
+import dojo.supermarket.model.offer.SpecialOfferType;
+import dojo.supermarket.model.product.Product;
+import dojo.supermarket.model.product.ProductQuantity;
+import dojo.supermarket.service.cart.ShoppingCart;
+import dojo.supermarket.service.cart.SupermarketCatalog;
 
 import java.util.HashMap;
 import java.util.List;

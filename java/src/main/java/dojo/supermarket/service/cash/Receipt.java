@@ -1,4 +1,8 @@
-package dojo.supermarket.model;
+package dojo.supermarket.service.cash;
+
+import dojo.supermarket.model.discount.Discount;
+import dojo.supermarket.model.product.Product;
+import dojo.supermarket.model.ReceiptItem;
 
 import java.util.ArrayList;
 import java.util.Collections;
